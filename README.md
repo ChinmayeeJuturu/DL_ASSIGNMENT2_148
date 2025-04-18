@@ -83,6 +83,14 @@ LSTM params=4×[(input_dim×hidden_dim)+(hidden_dim×hidden_dim)+hidden_dim]
 4.Total Parameters:
 Total=345088+345088+20560=
 710736 trainable parameters
+c)The accuracy on the test set:
+Test Accuracy: 88.45%
+Sample predictions:
+Latin: priyanka → Predicted: प्रियांका
+Latin: bharat → Predicted: भारत 
+Latin: kumar → Predicted: कुमार 
+Latin: delhi → Predicted: दिल्ली 
+Latin: ashok → Predicted: अशोक 
 
 
 
