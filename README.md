@@ -2,7 +2,7 @@
 #QUESTION1
 # Dakshina Transliteration with Seq2Seq (Keras)
 
-This project demonstrates a character-level sequence-to-sequence (seq2seq) transliteration model using LSTM networks to convert **Latin-script ** text into **Devanagari** script, trained on the [Dakshina dataset](https://github.com/google-research-datasets/dakshina).
+This project demonstrates a character-level sequence-to-sequence (seq2seq) transliteration model using LSTM networks to convert **Latin-script ** text into **Devanagari** script, trained on the [Dakshina dataset](https://github.com/google-research-datasets/dakshina)
 
 
 ## Features
