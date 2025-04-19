@@ -94,9 +94,50 @@ Latin: ashok → Predicted: अशोक
 **Comparision**
 compare to simple RNN LSTM gave good accuracy
 
+#QUESTION2:
+# GPT-2 Fine-Tuning for Song Lyric Generation
 
+This project fine-tunes OpenAI's GPT-2 language model on a custom dataset of song lyrics to generate original lyrics based on any input prompt. It uses the Hugging Face Transformers and Datasets libraries for model training and inference.
 
+## Overview
 
+- Fine-tunes GPT-2 (`gpt2`) on a custom `lyrics.txt` file.
+- Generates lyrics from user input using Hugging Face pipelines.
+- Runs seamlessly on Google Colab or locally with Python.
+
+## Requirements
+
+- Python 3.7+
+- torch
+- transformers
+- datasets
+- google.colab (if using Colab)
+
+Install dependencies with:
+
+!pip install transformers datasets
+
+Model Settings
+Model: gpt2
+
+Max token length: 128
+
+Batch size: 4
+
+Epochs: 3
+
+Loss: Causal Language Modeling (no masked tokens)
+How It Works
+The notebook loads and tokenizes your .txt file.
+
+GPT-2 is fine-tuned using Hugging Face's Trainer API.
+
+The model is saved and used with the pipeline API for lyric generation.
+Sample Output
+Prompt: dancing in the moonlight
+output:
+dancing in the moonlight, feeling like I'm free
+stars above are singing just for me...
 
 
 
