@@ -90,7 +90,9 @@ Latin: priyanka → Predicted: प्रियांका
 Latin: bharat → Predicted: भारत 
 Latin: kumar → Predicted: कुमार 
 Latin: delhi → Predicted: दिल्ली 
-Latin: ashok → Predicted: अशोक 
+Latin: ashok → Predicted: अशोक
+**Comparision**
+compare to simple RNN LSTM gave good accuracy
 
 
 
