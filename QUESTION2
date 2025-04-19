@@ -2,7 +2,7 @@
 # Install necessary libraries
 !pip install transformers datasets --quiet
 import os
-os.environ["WANDB_DISABLED"] = "true"  # ✅ Disable wandb before training
+os.environ["WANDB_DISABLED"] = "true"  #  Disable wandb before training
 
 #Imports
 
